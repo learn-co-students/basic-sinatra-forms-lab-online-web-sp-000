@@ -14,7 +14,7 @@ display the data from the form after it has been submitted by the user.
 
 3. Make a form
 
-   Create a route that responds to a GET request at `/newteam`.
+   <!-- Create a route that responds to a GET request at `/newteam`. -->
    Add a form to the `newteam.erb` template and render it in the GET `/newteam`
    route.
 
