@@ -1,12 +1,30 @@
+
 <!DOCTYPE html>
 <html>
  <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="stylesheets/team_style_sheet.css" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <title>Basketball Team</title>
  </head>
  <body>
- 
+  <h1>Your new team</h1>
+  <div class="container">
+    <ul class="list-group">
+      <li class="list-group-item">Team Name: <%= @team_info[:name] %> </li>
+      <li class="list-group-item">Coach: <%= @team_info[:coach] %> </li>
+      <li class="list-group-item">Point Guard: <%= @team_info[:pg] %> </li>
+      <li class="list-group-item">Shooting Guard: <%= @team_info[:sg] %> </li>
+      <li class="list-group-item">Small Forward: <%= @team_info[:sf] %> </li>
+      <li class="list-group-item">Power Forward: <%= @team_info[:pf] %> </li>
+      <li class="list-group-item">Center: <%= @team_info[:c] %> </li>
+      
 
+
+    </ul>
+</div>
+
+    
 
  </body>
 </html>

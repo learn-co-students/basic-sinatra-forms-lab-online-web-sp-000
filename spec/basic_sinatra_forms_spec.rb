@@ -79,7 +79,5 @@ describe App do
 
       expect(page).to have_text("Center: Avi")
     end
-
-
   end
 end
