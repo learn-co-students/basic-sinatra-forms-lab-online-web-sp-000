@@ -5,10 +5,28 @@
   <title>Basketball Team</title>
  </head>
  <body>
- 
+   <!-- Removing this, since tests are too rigid to accomdate this
+   syntactic sugar
 
+   <% params.each do |k, v| %>
+    <% title_name = k.split(/ |\_/).map(&:capitalize).join(" ") %>
+    <% if k == "team_name" %>
+      <h1><%= title_name %>: <%= v %><h1>
+    <% else %>
+      <h2><%= title_name %>: <%= v %><h1>
+    <% end %>
+   <% end %>
+
+ -->
+
+  <h1>Team Name: <%= params[:name] %> </h1>
+
+  <h2>Coach: <%= params[:coach] %> </h2>
+  <h2>Point Guard: <%= params[:pg] %> </h2>
+  <h2>Shooting Guard: <%= params[:sg] %> </h2>
+  <h2>Small Forward: <%= params[:sf] %> </h2>
+  <h2>Power Forward: <%= params[:pf] %> </h2>
+  <h2>Center: <%= params[:center] %> </h2>
 
  </body>
 </html>
-
-
