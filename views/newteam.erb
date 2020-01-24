@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html>
- <head>
-  <meta charset="UTF-8">
-  <title>Basketball Team Signup</title>
- </head>
- <body>
- </body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Basketball Team Signup</title>
+    </head>
+    <body>
+        <form method="POST" action="/team">
+            <h5>Team Name: <input type="text" name="name" /></h5> #The name attribute of an <input> defines how our application will identify each <input> data.
+            <h5>Coach: <input type="text" name="coach" /></h5>
+            <h5>Point Guard: <input type="text" name="pg" /></h5>
+            <h5>Shooting Guard: <input type="text" name="sg" /></h5>
+            <h5>Power Forward: <input type="text" name="pf" /></h5>
+            <h5>Small Forward: <input type="text" name="sf" /></h5>
+            <h5>Center: <input type="text" name="c" /></h5><br/><br/>
+            <input type="submit" id="Submit" /> #"Submit" button will need to be identified by an id attribute with value of "Submit".
+        </form>
+    </body>
 </html>
 
 
