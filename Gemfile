@@ -17,3 +17,6 @@ group :test do
   gem 'rack-test'
   gem 'poltergeist'
 end
+
+gem 'standardrb'
+gem 'htmlbeautifier'
