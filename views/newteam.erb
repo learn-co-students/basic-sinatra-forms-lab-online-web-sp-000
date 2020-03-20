@@ -3,9 +3,25 @@
  <head>
   <meta charset="UTF-8">
   <title>Basketball Team Signup</title>
+  <h1>Create a Basketball Team!</h1>
  </head>
  <body>
+   <form action="/team" method="POST">
+     <label for="name">Team Name:</label>
+      <p><input type="text" name="Team Name" id="name" /><p>
+     <label for="coach">Coach:</label>
+      <p><input type="text" name="Coach" id="coach" /><p>
+     <label for="pg">Point Guard:</label>
+      <p><input type="text" name="Point Guard" id="pg" /><p>
+     <label for="sg">Shooting Guard:</label>
+      <p><input type="text" name="Shooting Guard" id="sg" /><p>
+     <label for="sf">Small Forward:</label>
+      <p><input type="text" name="Small Forward" id="sf" /><p>
+     <label for="pf">Power Forward:</label>
+      <p><input type="text" name="Power Forward" id="pf" /><p>
+     <label for="c">Center:</label>
+      <p><input type="text" name="Center" id="c" /><p>
+     <p><input type="submit" value="Submit"/>
+   </form>
  </body>
 </html>
-
-

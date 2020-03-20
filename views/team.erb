@@ -5,10 +5,11 @@
   <title>Basketball Team</title>
  </head>
  <body>
- 
+   <% @team_roster.each do |key, value|%>
+   <h1><%= "#{key}" + ": " + "#{value}" %> </h1>
+   <%end%>
+
 
 
  </body>
 </html>
-
-
