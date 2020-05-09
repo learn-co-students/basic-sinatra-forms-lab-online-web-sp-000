@@ -5,8 +5,17 @@
   <title>Basketball Team</title>
  </head>
  <body>
- 
-
+<!--  	<% @hash.each do |key, item| %>
+		<h2><%= key +  ": " + item %></h2>
+ 	<% end %> -->
+ 	 <h1>Basketball Team! </h1>
+  Team Name: <%= params[:name] %>
+  Coach: <%= params[:coach] %>
+  Point Guard: <%=params[:pg]%>
+  Power Forward: <%=params[:pf] %>
+  Shooting Guard: <%=params[:sg] %>
+  Small Forward: <%=params[:sf] %>
+  Center: <%=params[:c] %>
 
  </body>
 </html>
