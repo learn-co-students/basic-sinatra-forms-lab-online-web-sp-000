@@ -10,6 +10,4 @@ class App < Sinatra::Base
     puts params
     erb :team
   end
-
-
 end
