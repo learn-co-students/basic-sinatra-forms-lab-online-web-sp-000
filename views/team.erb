@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
- <head>
+<head>
   <meta charset="UTF-8">
   <title>Basketball Team</title>
- </head>
- <body>
- 
-
-
- </body>
+</head>
+<body>
+  <h1>Team Name: <%= @team_info[:name] %></h1>
+  <p>
+    Coach: <%= @team_info[:coach] %><br>
+    Point Guard: <%= @team_info[:pg] %><br>
+    Shooting Guard: <%= @team_info[:sg] %><br>
+    Small Forward: <%= @team_info[:sf] %><br>
+    Power Forward: <%= @team_info[:pf] %><br>
+    Center: <%= @team_info[:c] %><br>
+  </p>
+</body>
 </html>
-
-
