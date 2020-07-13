@@ -5,10 +5,17 @@
   <title>Basketball Team</title>
  </head>
  <body>
- 
 
+
+ <% @team.each do |player| %>
+     <h1>Team Name: <%= player[:name] %></h1>
+     <h2>Coach: <%= player[:coach] %></h2>
+     <h2>Point Guard: <%= player[:pg] %></h2>
+     <h2>Shooting Guard: <%= player[:sg] %></h2>
+     <h2>Small Forward: <%= player[:sf] %></h2>
+     <h2>Power Forward: <%= player[:pf] %></h2>
+     <h2>Center: <%= player[:c] %></h2>
+ <% end %>
 
  </body>
 </html>
-
-
