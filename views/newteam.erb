@@ -2,9 +2,46 @@
 <html>
  <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="stylesheets/team_style_sheet.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <title>Basketball Team Signup</title>
  </head>
  <body>
+  <h1>Create a Basketball Team!</h1>
+  
+  <form method="POST" action="/newteam">
+    <div class="form-group">
+      <label for="name">Team Name:</label>
+      <input type="text" name="name">
+    </div>
+    <div class="form-group">
+      <label for="name">Coach:</label>
+      <input type="text" name="coach">
+    </div>
+    <div class="form-group">
+      <label for="name">Point Guard:</label>
+      <input type="text" name="pg">
+    </div>
+    <div class="form-group">
+      <label for="name">Shooting Guard:</label>
+      <input type="text" name="sg">
+    </div>
+    <div class="form-group">
+      <label for="name">Small Forward:</label>
+      <input type="text" name="sf">
+    </div>
+    <div class="form-group">
+      <label for="name">Power Forward:</label>
+      <input type="text" name="pf">
+    </div>
+    <div class="form-group">
+      <label for="name">Center:</label>
+      <input type="text" name="c">
+    </div>
+    <div class="form-group">
+       <button id="Submit" type="submit" class="btn btn-default">Submit</button>
+    </div>
+  </form>
  </body>
 </html>
 
