@@ -5,6 +5,48 @@
   <title>Basketball Team Signup</title>
  </head>
  <body>
+   <h1>Create a Basketball Team!</h1>
+   <form action="/team.erb" method="POST">
+     <div>
+      <label for="name">Team Name:</label>
+       <input type="text" name="name" id="name">
+     </div>
+     
+     <div>
+       <label for="coach">Coach:</label>
+       <input type="text" name="coach" id="coach">
+     </div> 
+     
+     <div>
+       <label for="pg">Point Guard:</label>
+       <input type="text" name="pg" id="pg">
+     </div>
+     
+      <div>
+       <label for="sg">Shooting Guard:</label>
+       <input type="text" name="sg" id="sg">
+      </div> 
+      
+      <div>
+       <label for="sf">Small Foward:</label>
+       <input type="text" name="sf" id="sf">
+      </div>
+      
+      <div>
+       <label for="pf">Power Foward:</label>
+       <input type="text" name="pf" id="pf">
+      </div>
+     
+     <div>
+       <label for="c">Center:</label>
+       <input type="text" name="c" id="c">
+     </div>
+     
+     <div>
+     <input type="submit" id="Submit">
+     </div>
+   </form>
+   
  </body>
 </html>
 
