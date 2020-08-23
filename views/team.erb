@@ -5,8 +5,25 @@
   <title>Basketball Team</title>
  </head>
  <body>
- 
-
+ <%=@params%>
+ <% @params.each do |k,v| 
+    case k
+    when "name"
+        k="Team Name"
+    when "coach"
+        k="Coach"
+    when "pg"
+        k="Point Guard"
+    when "sg"
+        k="Shooting Guard"
+    when "pf"
+        k="Power Forward"
+    when "c"
+        k="Center"
+    end
+    %>
+    <h2><%= k %>: <%= v %></h2>
+<% end %>
 
  </body>
 </html>
